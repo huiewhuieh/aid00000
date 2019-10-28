@@ -22,3 +22,4 @@ for i in shm:
     print(i)
 
 print(shm.value) # 
+print(shm)
