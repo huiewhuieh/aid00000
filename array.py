@@ -15,7 +15,6 @@ def fun():
     for i in shm:
         print(i)
     shm[0] = b'H' # 修改共享内存
-
 p = Process(target=fun)
 p.start()
 p.join()
